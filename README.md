@@ -50,5 +50,19 @@ Cuando es es el primer valor que le asignamos a una variable, se puede declarar 
 int myAge = 29;
 ```
 
+También podemos asignar el resultado de una operación aritmética. Antes de asignar el valor, Processing calculará el resultado de las operaciones. En caso de que la operación involucre alguna variable, primero se sustituye su valor y después se calcula. Ejemplo:
+
+```java
+float widthRect = 110.9;
+float heightRect = 20.10;
+float areaRect = widthRect * heightRect;
+```
+Las operaciones aritméticas básicas, ordenadas de menor a mayor precedencia, son:
+
+1. Suma (`+`)
+2. Resta (`-`)
+3. Multiplicación (`*`)
+4. División (`/`)
+5. Agrupación (`/`)
 
 
