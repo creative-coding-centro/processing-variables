@@ -81,3 +81,11 @@ ellipse(xPosition, 300, 100, 300); // Usando una variable
 Lo interesante al hacer esto, es que podemos actualizar la variable como nosotros queramos (como al final del draw) y hacer lindas animaciones.
 
 #### Variables de sistema
+
+Processing ya tiene definida algunas variables que guardan valores muy útiles. Algunas de ellas son:
+
+* `width`: Guarda el ancho del canvas actual.
+* `height`: Guarda el ancho del canvas actual.
+* `mouseX`: Guarda la posición en x del mouse, se actualiza cada frame.
+* `mouseY`: Guarda la posición en y del mouse, se actualiza cada frame.
+* `mousePressed`: Un valor booleano, si está presionado o no, un botón del mouse.
