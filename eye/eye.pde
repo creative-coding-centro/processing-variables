@@ -1,9 +1,9 @@
 /** Variables. Ojito.
  */
  
-int eyeX;
-int eyeY;
-int eyeSize;
+int eyeX = 200;
+int eyeY = 250;
+int eyeSize = 200;
 
 void setup () {
   size(600, 600);
@@ -15,13 +15,13 @@ void draw () {
   // Cornea
   fill(255);
   noStroke();
-  ellipse(200, 200, 80, 80);
+  ellipse(eyeX, eyeY, eyeSize, eyeSize);
 
   // Retina
   fill(0);
-  ellipse(220, 200, 40, 40);
+  ellipse(eyeX + 20, eyeY, eyeSize / 2, eyeSize / 2);
 
   // Iris
   fill(255);
-  ellipse(225, 195, 10, 10);
+  ellipse(eyeX + 25, eyeY - 5, eyeSize / 8, eyeSize / 8);
 }

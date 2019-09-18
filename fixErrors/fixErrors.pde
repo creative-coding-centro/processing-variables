@@ -3,17 +3,17 @@
  *
  */
  
-Int age
-intstudentsCount;
+int age;
+int studentsCount;
 
-int fingers = 9.5;
+float fingers = 9.5;
 
-playerPoints = 3;
+int playerPoints = 3;
 
-float 2areaTerrain;
+float areaTerrain2;
 
-float weight == 80.0
-float totalCost = true;
+float weight = 80.0;
+float totalCost = 19.4;
 
-boolean isRaining = 300;
-boolean hasGlasses = Falso;
+boolean isRaining = false;
+boolean hasGlasses = true;
