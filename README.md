@@ -65,4 +65,19 @@ Las operaciones aritméticas básicas, ordenadas de menor a mayor precedencia, s
 4. División (`/`)
 5. Agrupación (`/`)
 
+#### Uso de una variable
 
+Antes de aprender variables, aprendiste a usar comandos de dibujo de Processing como `ellipse`, donde usabas números como coordenadas y tamaños de una elipse. Cuando usas un número fijo, decimos que ese es un valor _hard coded_, porque es un valor que nunca va a cambiar. ¿Qué tal que queremos que la elipse esté en una posición que dependa de otro dibujo? ¿o que cambie con el tiempo?
+
+Para eso, podemos usar una variable y sustituirla como parámetro en la llamada del comando de dibujo. Así, Processing tomará el valor de la variable y lo usará para dibujar. Ejemplo:
+
+```java
+ellipse(50, 300, 100, 300); // Valores hardcoded
+
+float xPosition = 20;
+ellipse(xPosition, 300, 100, 300); // Usando una variable
+```
+
+Lo interesante al hacer esto, es que podemos actualizar la variable como nosotros queramos (como al final del draw) y hacer lindas animaciones.
+
+#### Variables de sistema
